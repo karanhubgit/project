@@ -1,0 +1,49 @@
+body{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+ 
+.section{
+	margin-top:5%;
+	
+}
+
+.section h2{
+	font-family: Times New Roman, Times, serif;
+	font-size:40px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.service{
+	display:flex;
+	text-align:center;
+	width:auto;
+	justify-content:center;
+	font-weight:800;
+	font-size:18px;
+}
+
+.service .serviceitem{
+	background:#EDEDED;
+	margin:5px;
+	margin-bottom:30px;
+	width:300px;
+	padding:15px;
+	line-height:25px;
+	color:#000000;
+	position:relative;
+	font-weight:500;
+	font-size:16px;
+}
+
+.footer-fix{
+	background-color:#212529;
+	color:#ffffff;
+	text-align:center;
+	font-size:18px;
+	padding-top:3rem;
+	padding-bottom:3rem;
+	
+}

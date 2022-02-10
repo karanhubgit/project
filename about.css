@@ -1,0 +1,19 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.navbar-edit{
+	margin-bottom:none;
+}
+
+h1{
+	text-align:center;
+	font-family:Roboto,Helvetica,Arial,Lucida,sans-serif;
+	line-height:2.5em;
+}
+
