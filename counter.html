@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Counter</title>
+<style>
+	body{
+		counter-reset: head2;
+	}
+	
+	h2::before {
+	content:"Chapter " counter(head2, upper-roman) "- ";
+	counter-increment: head2;
+	
+	
+	
+	background-color:blue;
+	color:white;
+	display:inline-block;
+	padding:6px;
+	}
+	
+	h2{
+	color:red;
+	}
+</style>
+</head>
+<body>
+
+	<h1 style="background-color:red; color:white;">This is Heading 1.</h1>
+	
+	<h2>This is First Heading 2.</h2>
+		<p>This is a Paragraph</p>
+		
+	<h2>This is Second Heading 2.</h2>
+		<p>This is a Paragraph</p>
+		
+	<h2>This is Third Heading 2.</h2>
+		<p>This is a Paragraph</p>
+		
+	<h2>This is Fourth Heading 2.</h2>
+		<p>This is a Paragraph</p>
+		
+	<h2>This is Fifth Heading 2.</h2>
+		<p>This is a Paragraph</p>
+
+	<h2>This is Sixth Heading 2.</h2>
+		<p>This is a Paragraph</p>
+
+</body>
+</html>

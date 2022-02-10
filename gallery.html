@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Gallery</title>
+
+	<style>
+		div.gallery{
+			float:left;
+			margin:10px;
+			border:2px solid #ff0000;
+			padding:6px;
+			width:300px;
+			opacity:0.8;
+		}
+		
+		div.gallery:hover{
+			opacity:1;
+			border:2px solid #000000;
+		}
+		
+		/*
+		div.gallery img{
+			width:100%;
+			height:100%;
+		}*/
+		
+		div.desc{
+			text-align:center;
+			padding:10px;
+			font-size:18px;
+		}
+	
+	
+		#navlist{
+			position: relative;
+		}
+		
+		#navlist li {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			position: absolute;
+			top: 0;
+		}
+		
+		#navlist li {
+			height: 44px;
+			display: block;
+			}
+			
+		#home{
+			left:0px;
+			width:46px;
+			background: url('imgnav.gif') 0 0;
+		}
+		
+		#prev {
+			left: 63px;
+			width: 43px;
+			background: url('imgnav.gif') -47px 0;
+		}
+		
+		#next{
+			left: 129px;
+			width: 43px;
+			background: url('imgnav.gif') -91px 0;
+		}
+			
+	</style>
+
+</head>
+<body>
+
+
+
+	<ul id="navlist">
+		<li id="home"></li>
+		<li id="prev"></li>
+		<li id="next"></li>
+	</ul>
+	
+	<br><br><br><br>
+	
+	<div class="gallery">
+		<a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
+			<img src="abc.png" alt="abc" style="width:300px; height:180px;">
+		</a>
+		<div class="desc">Add a description of the image here</div>
+	</div>
+	
+	<div class="gallery">
+		<a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
+			<img src="abc.png" alt="abc" style="width:300px; height:180px;">
+		</a>
+		<div class="desc">Add a description of the image here</div>
+	</div>
+	
+	<div class="gallery">
+		<a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
+			<img src="abc.png" alt="abc" style="width:300px; height:180px;">
+		</a>
+		<div class="desc">Add a description of the image here</div>
+	</div>
+	
+	<div class="gallery">
+		<a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
+			<img src="abc.png" alt="abc" style="width:300px; height:180px;">
+		</a>
+		<div class="desc">Add a description of the image here</div>
+	</div>
+
+
+</body>
+</html>
